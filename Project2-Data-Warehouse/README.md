@@ -8,9 +8,9 @@ In this project, you'll apply what you've learned on data warehouses and AWS to 
 
 You'll be working with 3 datasets that reside in S3. Here are the S3 links for each:
 
-Song data: ```s3://udacity-dend/song_data```
-Log data: ```s3://udacity-dend/log_data```
-This third file ```s3://udacity-dend/log_json_path.jsoncontains``` the meta information that is required by AWS to correctly load ```s3://udacity-dend/log_data```
+Song data: ```s3://udacity-dend/song_data```\
+Log data: ```s3://udacity-dend/log_data```\
+This third file ```s3://udacity-dend/log_json_path.jsoncontains``` the meta information that is required by AWS to correctly load ```s3://udacity-dend/log_data```\
 
 ## Song Dataset
 

@@ -60,17 +60,17 @@ Using the song and event datasets, you'll need to create a star schema optimized
 
 
 ### Staging tables
-- staging_songs - info about songs and artists
-- staging_events - actions done by users (which song are listening, etc.. )
+- `staging_songs` - info about songs and artists
+- `staging_events` - actions done by users (which song are listening, etc.. )
 
 ### Fact Table
 - songplays - records in event data associated with song plays i.e. records with page `NextSong`
 
 ### Dimension Tables
-- users - users in the app
-- songs - songs in music database
-- artists - artists in music database
-- time - timestamps of records in songplays broken down into specific units
+- `users` - users in the app
+- `songs` - songs in music database
+- `artists` - artists in music database
+- `time` - timestamps of records in songplays broken down into specific units
 
 The database schema is shown as follows:
 
@@ -83,10 +83,10 @@ To get started with the project, go to the workspace on the next page, where you
 Alternatively, you can download the template files in the Resources tab in the classroom and work on this project on your local computer.
 
 The project template includes four files:
-- create_table.py is where you'll create your fact and dimension tables for the star schema in Redshift.
-- etl.py is where you'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
-- sql_queries.py is where you'll define you SQL statements, which will be imported into the two other files above.
-- README.md is where you'll provide discussion on your process and decisions for this ETL pipeline.
+- `create_table.py` is where you'll create your fact and dimension tables for the star schema in Redshift.
+- `etl.py` is where you'll load data from S3 into staging tables on Redshift and then process that data into your analytics tables on Redshift.
+- `sql_queries.py` is where you'll define you SQL statements, which will be imported into the two other files above.
+- `README.md` is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
 ## How to Run Scripts
 

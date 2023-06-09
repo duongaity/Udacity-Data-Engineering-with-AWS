@@ -16,7 +16,6 @@ This third file `s3://udacity-dend/log_json_path.jsoncontains` the meta informat
 
 The first dataset is a subset of real data from the Million Song Dataset. Each file is in JSON format and contains metadata about a song and the artist of that song. The files are partitioned by the first three letters of each song's track ID. For example, here are file paths to two files in this dataset.
 
-
 ```
 song_data/A/B/C/TRABCEI128F424C983.json
 song_data/A/A/B/TRAABJL12903CDCF1A.json
@@ -52,8 +51,7 @@ log_data/2018/11/2018-11-13-events.json
 
 ## Schema for Song Play Analysis
 
-Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
-
+Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables:
 
 ### Staging tables
 - `staging_songs` - info about songs and artists
@@ -81,7 +79,7 @@ The project template includes four files:
 - `README.md` is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
 ## How to Run Scripts
-- `create_tables.py` - Run command to create tables by running.
-- `etl.py` - Run command to execute ETL process by running.
+- `create_tables.py` - Run command to create tables
+- `etl.py` - Run command to execute ETL process
 
 ## Output

@@ -8,4 +8,6 @@ You are provided with part of the ETL pipeline that transfers data from a set of
 
 We have provided you with a project template that takes care of all the imports and provides a structure for ETL pipeline you'd need to process this data.
 
+## Project 2: Data Warehouse
 
+In this project, you'll apply what you've learned on data warehouses and AWS to build an ETL pipeline for a database hosted on Redshift. To complete the project, you will need to load data from S3 to staging tables on Redshift and execute SQL statements that create the analytics tables from these staging tables.

@@ -50,10 +50,6 @@ log_data/2018/11/2018-11-12-events.json
 log_data/2018/11/2018-11-13-events.json
 ```
 
-And below is an example of what the data in a log file, 2018-11-12-events.json, looks like:
-
-<INPUT_IMAGE>
-
 ## Schema for Song Play Analysis
 
 Using the song and event datasets, you'll need to create a star schema optimized for queries on song play analysis. This includes the following tables.
@@ -64,17 +60,13 @@ Using the song and event datasets, you'll need to create a star schema optimized
 - `staging_events` - actions done by users (which song are listening, etc.. )
 
 ### Fact Table
-- songplays - records in event data associated with song plays i.e. records with page `NextSong`
+- `songplays` - records in event data associated with song plays i.e. records with page `NextSong`
 
 ### Dimension Tables
 - `users` - users in the app
 - `songs` - songs in music database
 - `artists` - artists in music database
 - `time` - timestamps of records in songplays broken down into specific units
-
-The database schema is shown as follows:
-
-<INPUT_IMAGE>
 
 ## Project Template
 
@@ -89,5 +81,7 @@ The project template includes four files:
 - `README.md` is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
 ## How to Run Scripts
+- Create tables by running `create_tables.py`
+- Execute ETL process by running `etl.py`
 
 ## Output

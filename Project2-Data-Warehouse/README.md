@@ -81,7 +81,7 @@ The project template includes four files:
 - `README.md` is where you'll provide discussion on your process and decisions for this ETL pipeline.
 
 ## How to Run Scripts
-- Create tables by running `create_tables.py`
-- Execute ETL process by running `etl.py`
+- `create_tables.py` - Run command to create tables by running.
+- `etl.py` - Run command to execute ETL process by running.
 
 ## Output
